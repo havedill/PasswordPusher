@@ -34,6 +34,8 @@
     - if defined?(::Instana)
       = raw ::Instana::Helpers.eum_test_snippet('_LNwQfrwSKqwTDqD3K9kGg')
   %body
+    .content
+     
       = yield
 
     = javascript_include_tag "application"
